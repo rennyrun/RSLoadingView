@@ -39,7 +39,7 @@ public class RSLoadingView: UIView, SCNSceneRendererDelegate {
   
   var containerView: RSLoadingContainerView?
   public var shouldDimBackground = true
-  public var dimBackgroundColor = UIColor.black.withAlphaComponent(0.6)
+  public var dimBackgroundColor = UIColor.black.withAlphaComponent(0)
   public var isBlocking = true
   public var shouldTapToDismiss = false
   public var sizeInContainer: CGSize = CGSize(width: 180, height: 180)
